@@ -1,32 +1,247 @@
-.App {
+/* Universal styles */
+:root {
+  --header-color: rgba(0, 0, 0, .85);
+  --font-color: #f8f8f2;
+  --sidebar-color: #2e303d;
+  --body-color: #67896a;
+  --orange-color: #C47A35;
+  --header-font: 'PT Sans Narrow', sans-serif;
+  --body-font: 'Raleway', sans-serif;
+}
+
+* {
+  color: var(--font-color);
+  font-family: var(--body-font);
+  margin: 0;
+}
+
+body {
+	font-weight: 400;
+	margin: 0;
+	line-height: 2em;
+}
+
+p {
+	line-height: 2em;
+}
+
+a {
+	text-decoration: none;
+	transition: all 1s;
+	color: var(--green-color);
+	font-weight: 900;
+}
+
+a:hover {
+	color: var(--orange-color);
+}
+
+h1, h2, h3 {
+	font-family: var(--header-font);
+	color: var(--header-color);
+}
+
+h2 {
+	font-size: 2em;
+	line-height: 1.25em;
+}
+
+h3 {
+	font-size: 2.5em;
+	line-height: 1.5em;
+}
+
+h5 {
+	font-size: 1em;
+	font-weight: 700;
+	font: var(--header-font);
+}
+
+hr {
+	height: 3px;
+	border: 0;
+	background: var(--orange-color);
+	width: 70px;
+	margin: 0;
+	margin: 20px 0;
+}
+
+/* For smooth scrolling to not outline sections in blue */
+#top:focus, #featured-projects:focus, #about:focus, #contact:focus {
+	outline: 0;
+}
+
+
+/* Main Container Settings */
+.app-container {
+  display: flex;
+}
+
+
+
+/* MAIN CONTENT */
+.main-container {
+  flex: 3;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.nav-buttons {
+  /* box */
+  display: block;
+  flex-grow: 0;
+  position: relative; 
+}
+
+@media (max-width: 767px) {
+  .nav-buttons {
+    /* box */
+    display: flex;
+    padding-bottom: 4rem;
+    /* flex child element settings */
+    flex-direction: row;
+    justify-content: space-around; 
+  } 
+}
+
+.nav-buttons__button {
+  padding-bottom: 2.7rem; 
+}
+
+@media (max-width: 767px) {
+  .nav-buttons__button {
+    /* box */
+    padding-bottom: 0; } 
+}
+
+.nav-buttons__link-text {
+  padding-top: 0.7rem;
+  /* text */
+  color: var(--font-color);
+  font-size: 1.2rem;
+  line-height: 1rem;
+  text-align: center; 
+}
+
+@media (max-width: 767px) {
+  .nav-buttons__link-text {
+    /* text */
+    font-size: 1rem; } 
+}
+
+.nav-buttons__icon {
+  /*box*/
+  display: block;
+  /* text */
+  font-size: 7rem; 
+}
+
+@media (max-width: 767px) {
+  .nav-buttons__icon {
+    /* text */
+    font-size: 5rem; 
+  } 
+}
+
+.nav-buttons__icon--not-square {
+  padding-bottom: 0.85rem;
+  font-size: 6rem; 
+}
+
+@media (max-width: 767px) {
+  .nav-buttons__icon--not-square {
+    /* text */
+    font-size: 4rem;
+    padding-top: .3rem;
+    padding-bottom: .7rem; } 
+}
+
+.nav-buttons a {
+  /* text */
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 6rem; 
+}
+
+/* SIDEBAR  */
+.sidebar {
+  /* background */
+  background-color: var(--sidebar-color);
+  background-position: 700px 0;
+  background-size: cover;
+  position: fixed;
+  left: 0px;
+  overflow: scroll;
+  /* box positions*/
+  box-sizing: border-box;
+  flex-grow: 1;
+  height: 100%;
+  width: 30%;
+  margin: auto;
+
+  /* text */
+  color: var(--font-color);
+  text-transform: uppercase;
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  letter-spacing: .1em;
+  /* flex child element settings */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: nowrap; 
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 767px) {
+  .sidebar {
+    /* box */
+    height: 20%;
+    width: 100%;
+    /* background */
+    position: static;
+    top: 0px;
+    overflow: hidden;
+    /* flex child settings */
+    flex-direction: column; 
+  } 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar__profile-container {
+  /* box */
+  display: block;
+  flex-grow: 0;
+  padding: 4rem 2rem; 
 }
+
+@media (max-width: 767px) {
+  .sidebar__name {
+    /* box */
+    padding-right: -0.375em;
+    /* text */
+    font-size: 4rem;
+    letter-spacing: 0.75em;
+    text-indent: 0.75em; 
+  } 
+}
+
+.sidebar__headline {
+  display: none; 
+}
+
+@media (max-width: 767px) {
+  .sidebar__headline {
+    /* box */
+    display: block; 
+  } 
+}
+
+.sidebar__profile-pic {
+  /* box */
+  border-radius: 50%;
+  height: 150px;
+  width: 150px; 
+}
+
+@media (max-width: 767px) {
+  .sidebar__profile-pic {
+    display: none; 
+  } 
+}
+
