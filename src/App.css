@@ -41,10 +41,10 @@ h1, h2, h3 {
 	color: var(--header-color);
 }
 
-h2 {
+/* h2 {
 	font-size: 2em;
 	line-height: 1.25em;
-}
+} */
 
 h3 {
 	font-size: 2.5em;
@@ -73,18 +73,16 @@ hr {
 
 
 /* Main Container Settings */
-.app-container {
+/* .app-container {
   display: flex;
-}
-
-
+} */
 
 /* MAIN CONTENT */
-.main-container {
+/* .main-container {
   flex: 3;
   flex-direction: column;
   justify-items: center;
-}
+} */
 
 .nav-buttons {
   /* box */
@@ -104,8 +102,8 @@ hr {
   } 
 }
 
-.nav-buttons__button {
-  padding-bottom: 2.7rem; 
+.nav-buttons_button {
+  padding-bottom: 1.8rem; 
 }
 
 @media (max-width: 767px) {
@@ -133,19 +131,21 @@ hr {
   /*box*/
   display: block;
   /* text */
-  font-size: 7rem; 
+  font-size: 4rem; 
+  color: rgba(255, 255, 255, 0.5);
 }
 
 @media (max-width: 767px) {
   .nav-buttons__icon {
     /* text */
-    font-size: 5rem; 
+    font-size: 4rem; 
+    color: rgba(255, 255, 255, 0.5);
   } 
 }
 
 .nav-buttons__icon--not-square {
   padding-bottom: 0.85rem;
-  font-size: 6rem; 
+  font-size: 3.5rem; 
 }
 
 @media (max-width: 767px) {
@@ -170,12 +170,12 @@ hr {
   background-size: cover;
   position: fixed;
   left: 0px;
-  overflow: scroll;
+  overflow: auto;
   /* box positions*/
   box-sizing: border-box;
   flex-grow: 1;
   height: 100%;
-  width: 30%;
+  width: 25%;
   margin: auto;
 
   /* text */
@@ -207,7 +207,7 @@ hr {
   /* box */
   display: block;
   flex-grow: 0;
-  padding: 4rem 2rem; 
+  margin: 1.5rem 2rem; 
 }
 
 @media (max-width: 767px) {
