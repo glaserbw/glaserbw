@@ -1,9 +1,9 @@
 /* Universal styles */
 :root {
-  --header-color: rgba(0, 0, 0, .85);
+  --header-color: #bc93f9;
   --font-color: #f8f8f2;
   --sidebar-color: #2e303d;
-  --body-color: #67896a;
+  --body-color: #282a36;
   --orange-color: #C47A35;
   --header-font: 'PT Sans Narrow', sans-serif;
   --body-font: 'Raleway', sans-serif;
@@ -36,9 +36,17 @@ a:hover {
 	color: var(--orange-color);
 }
 
-h1, h2, h3 {
+h1 {
+  color: var(--header-color);
+  font-size: 4rem;
+  line-height: 1em;
+  font-weight: 400;
+  letter-spacing: .2em;
+}
+
+h2, h3 {
 	font-family: var(--header-font);
-	color: var(--header-color);
+	color: var(--font-color);
 }
 
 /* h2 {
@@ -84,8 +92,8 @@ hr {
   justify-items: center;
 } */
 
-/* NAVIGATION */
 
+/* NAVIGATION */
 .nav-buttons {
   /* box */
   display: block;
@@ -123,6 +131,10 @@ hr {
   text-align: center; 
 }
 
+.nav-buttons__link-text:hover {
+  color: white;
+}
+
 @media (max-width: 767px) {
   .nav-buttons__link-text {
     /* text */
@@ -135,6 +147,10 @@ hr {
   /* text */
   font-size: 3.4rem; 
   color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-buttons__icon:hover  {
+  color: white;
 }
 
 @media (max-width: 767px) {
@@ -173,12 +189,16 @@ hr {
   position: fixed;
   left: 0px;
   overflow: auto;
+  /* border: 3px solid white; */
+  -webkit-box-shadow: 7px 0 4px -2px rgba(0, 0, 0, .2);
+          box-shadow: 7px 0 4px -2px rgba(0, 0, 0, .2);
   /* box positions*/
   box-sizing: border-box;
   flex-grow: 1;
   height: 100%;
   width: 25%;
   margin: auto;
+
 
   /* text */
   color: var(--font-color);
@@ -254,7 +274,8 @@ hr {
   flex-basis: 60%;
   flex-grow: 1;
   margin-left: 25%;
-  padding: 0 2rem; 
+  padding: 0 2.5rem; 
+  background-color: var(--body-color);
 }
 
 @media (max-width: 767px) {
@@ -266,6 +287,7 @@ hr {
 .main__container {
   /* box */
   height: 100%;
+
   /* effects */
   overflow: scroll; 
 }
@@ -274,15 +296,15 @@ hr {
   /* box */
   padding-top: 2rem;
   /* text */
-  color: #fe7b5c; 
+  color: var(--orange-color); 
 }
 
 .main__section {
   /* box */
-  border-bottom: solid 2px #ccc;
-  max-width: 70rem;
+  border-bottom: solid 1.5px #ccc;
+  max-width: 65rem;
   margin: 0 auto;
-  padding: 4rem 2rem; 
+  padding: 4rem 1.5rem; 
 }
 
   @media (max-width: 767px) {

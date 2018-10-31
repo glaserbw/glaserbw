@@ -6,7 +6,7 @@ import '../../App.css';
 class Main extends Component {
   render() {
     return (
-      <section >
+
          <div className="main">
             <div className="main-container">
               <section class="main__section main__profile">
@@ -36,7 +36,7 @@ class Main extends Component {
               </section>
             </div>
           </div>
-      </section>
+    
     );
   }
 }
