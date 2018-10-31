@@ -22,14 +22,14 @@ body {
 }
 
 p {
-	line-height: 2em;
+	line-height: 1.5em;
 }
 
 a {
 	text-decoration: none;
 	transition: all 1s;
-	color: var(--green-color);
-	font-weight: 900;
+	/* color: var(--green-color); */
+	font-weight: 300;
 }
 
 a:hover {
@@ -84,6 +84,8 @@ hr {
   justify-items: center;
 } */
 
+/* NAVIGATION */
+
 .nav-buttons {
   /* box */
   display: block;
@@ -116,22 +118,22 @@ hr {
   padding-top: 0.7rem;
   /* text */
   color: var(--font-color);
-  font-size: 1.2rem;
-  line-height: 1rem;
+  font-size: .8rem;
+  line-height: .9rem;
   text-align: center; 
 }
 
 @media (max-width: 767px) {
   .nav-buttons__link-text {
     /* text */
-    font-size: 1rem; } 
+    font-size: .8rem; } 
 }
 
 .nav-buttons__icon {
   /*box*/
   display: block;
   /* text */
-  font-size: 4rem; 
+  font-size: 3.4rem; 
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -207,7 +209,7 @@ hr {
   /* box */
   display: block;
   flex-grow: 0;
-  margin: 1.5rem 2rem; 
+  margin: 1.2rem 2rem; 
 }
 
 @media (max-width: 767px) {
@@ -235,8 +237,8 @@ hr {
 .sidebar__profile-pic {
   /* box */
   border-radius: 50%;
-  height: 125px;
-  width: 125px; 
+  height: 150px;
+  width: 150px; 
 }
 
 @media (max-width: 767px) {
@@ -245,3 +247,70 @@ hr {
   } 
 }
 
+/* Main */
+.main {
+  /* box */
+  box-sizing: border-box;
+  flex-basis: 60%;
+  flex-grow: 1;
+  margin-left: 25%;
+  padding: 0 2rem; 
+}
+
+@media (max-width: 767px) {
+  .main {
+    margin-left: 0; 
+  } 
+}
+
+.main__container {
+  /* box */
+  height: 100%;
+  /* effects */
+  overflow: scroll; 
+}
+
+.main__subtitle {
+  /* box */
+  padding-top: 2rem;
+  /* text */
+  color: #fe7b5c; 
+}
+
+.main__section {
+  /* box */
+  border-bottom: solid 2px #ccc;
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 4rem 2rem; 
+}
+
+  @media (max-width: 767px) {
+    .main__section {
+      padding: 4rem 0; 
+  } 
+}
+
+@media (max-width: 767px) {
+  .main__profile {
+    /* box */
+    display: none; 
+  } 
+}
+
+.main__contact-info {
+  /* box */
+  display: inline-block; 
+}
+
+.main__contact-info a {
+  /* text */
+  color: #333;
+  text-decoration: none;
+  text-transform: capitalize; 
+}
+
+.main__email {
+  /* */
+  display: inline-block; 
+}
