@@ -235,8 +235,8 @@ hr {
 .sidebar__profile-pic {
   /* box */
   border-radius: 50%;
-  height: 150px;
-  width: 150px; 
+  height: 125px;
+  width: 125px; 
 }
 
 @media (max-width: 767px) {
