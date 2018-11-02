@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import '../App.css';
-
+import ScrollableAnchor from 'react-scrollable-anchor';
 import Brian_crop from './assets/Brian_crop.jpg';
+
 
 // imports
 
@@ -17,25 +18,25 @@ class Sidebar extends Component {
 			</div>
 			<div class="nav-buttons">
 				<div class="nav-buttons_button">
-					<a href="#" target="_blank">
+					<a href="https://github.com/glaserbw" target="_blank">
 						<i class="fab fa-github nav-buttons__icon"></i>
 						<p class="nav-buttons__link-text">GitHub</p>
 					</a>
 				</div>
 				<div class="nav-buttons_button">
-					<a href="#" target="_blank">
+					<a href="https://www.linkedin.com/in/brian-w-glaser/" target="_blank">
 						<i class="fab fa-linkedin nav-buttons__icon" target="_blank"></i>
 						<p class="nav-buttons__link-text" target="_blank">LinkedIn</p>
 					</a>
 				</div>
 				<div class="nav-buttons_button">
-					<a href="#get-in-touch">
+					<ScrollableAnchor id={'contact'}><a href="#contact">
 						<i class="fa fa-envelope-square nav-buttons__icon"></i>
 						<p class="nav-buttons__link-text">Email</p>
-					</a>
+					</a></ScrollableAnchor>
 				</div>
 				<div class="nav-buttons_button">
-					<a href="#" target="_blank">
+					<a href="https://drive.google.com/file/d/1VVIIjFAkX_FujXnweJYtU7BDht2LJ1Lj/view?usp=sharing" target="_blank">
 						<i class="fas fa-file-pdf nav-buttons__icon nav-buttons__icon--not-square"></i>
 						<p class="nav-buttons__link-text">Resume</p>
 					</a>

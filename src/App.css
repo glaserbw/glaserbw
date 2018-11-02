@@ -5,7 +5,7 @@
   --sidebar-color: #2e303d;
   --body-color: #282a36;
   --orange-color: #C47A35;
-  --header-font: 'PT Sans Narrow', sans-serif;
+  --header-font: 'Roboto', sans-serif;
   --body-font: 'Raleway', sans-serif;
 }
 
@@ -22,7 +22,8 @@ body {
 }
 
 p {
-	line-height: 1.5em;
+  line-height: 1.5em;
+  color: var(--font-color);
 }
 
 a {
@@ -32,21 +33,24 @@ a {
 	font-weight: 300;
 }
 
-a:hover {
+/* a:hover {
 	color: var(--orange-color);
-}
+} */
 
 h1 {
   color: var(--header-color);
-  font-size: 4rem;
+  font-size: 4.6rem;
   line-height: 1em;
-  font-weight: 400;
+  
+  font-weight: 700;
   letter-spacing: .2em;
+  font-family: 'Noto Serif', serif;
 }
 
 h2, h3 {
 	font-family: var(--header-font);
-	color: var(--font-color);
+  color: var(--orange-color);
+  text-transform: uppercase;
 }
 
 /* h2 {
@@ -116,6 +120,11 @@ hr {
   padding-bottom: 1.8rem; 
 }
 
+.nav-button_link:hover {
+  color: var(--orange-color);
+  
+}
+
 @media (max-width: 767px) {
   .nav-buttons__button {
     /* box */
@@ -131,9 +140,10 @@ hr {
   text-align: center; 
 }
 
+/* 
 .nav-buttons__link-text:hover {
-  color: white;
-}
+  color: var(--orange-color);
+} */
 
 @media (max-width: 767px) {
   .nav-buttons__link-text {
@@ -150,7 +160,8 @@ hr {
 }
 
 .nav-buttons__icon:hover  {
-  color: white;
+  color: var(--orange-color);
+  font-size: 4rem;
 }
 
 @media (max-width: 767px) {
@@ -335,4 +346,24 @@ hr {
 .main__email {
   /* */
   display: inline-block; 
+}
+
+/* Project Section */
+
+.project_container {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project_box {
+  min-height: 350px;
+  min-width: 350px; 
+  box-sizing: border-box;
+  color: green;
+  border: solid 1.5px #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  margin: .5em;
 }
