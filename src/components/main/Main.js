@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../../App.css';
 
 // imports
+import stokeyswayhome from '../assets/Stokeyswayhome.png';
 
 class Main extends Component {
   render() {
@@ -28,11 +29,17 @@ class Main extends Component {
                 <h2 className="h2-padding-exception">Personal Projects</h2>
                 <div className="project_container">
                   <div className="project_box">Stokey Bear Escape
+                    <img src={stokeyswayhome} alt="Photo of Stokey Bear Escape"></img>
+                  </div>
+                  <div className="project_box">Kainan
                     <img src="#" alt="Photo of Stokey Bear Escape"></img>
                   </div>
-                  <div className="project_box">Kainan</div>
-                  <div className="project_box">Stalky Stocks</div>
-                  <div className="project_box">Salt & Pepper Family</div>
+                  <div className="project_box">Stalky Stocks
+                    <img src="#" alt="Photo of Stokey Bear Escape"></img>
+                  </div>
+                  <div className="project_box">Salt & Pepper Family
+                    <img src="#" alt="Photo of Stokey Bear Escape"></img>
+                  </div>
                 </div>
               </section>
 

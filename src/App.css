@@ -2,7 +2,7 @@
 :root {
   --header-color: #bc93f9;
   --font-color: #f8f8f2;
-  --sidebar-color: #2e303d;
+  --sidebar-color: #252526;
   --body-color: #282a36;
   --orange-color: #C47A35;
   --header-font: 'Roboto', sans-serif;
@@ -366,4 +366,9 @@ hr {
   display: flex;
   flex-wrap: wrap;
   margin: .5em;
+}
+
+img {
+  width: auto;
+  height: 100%;
 }
