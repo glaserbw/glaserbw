@@ -368,7 +368,146 @@ hr {
   margin: .5em;
 }
 
-img {
-  width: auto;
+.project {
+  /* box */
+  margin-top: 2rem; 
+  box-sizing: border-box;
+  border: solid 1.5px #ccc;
+  width: 30rem;
+  height: auto;
+}
+
+.project__img-container {
+  /* background */
+  position: relative; 
+}
+
+.project img {
+  max-width: 100%; 
+}
+
+.project__img {
+  /* box */
+  display: block;
+  height: auto;
+  overflow: hidden; 
+}
+
+.project__img--large {
+  /* box */
+  display: block; 
+}
+@media (max-width: 767px) {
+  .project__img--large {
+    /* box */
+    display: none; 
+  } 
+}
+
+.project__img--tall {
+  /* box */
+  display: none; 
+}
+
+@media (max-width: 767px) {
+  .project__img--tall {
+    /* box */
+    display: block; 
+  }
+}
+
+.project__img-title {
+  /* box */
+  box-sizing: border-box;
+  display: block;
+  padding: 2rem;
+  margin: 0 auto;
+  width: 100%;
+  /* background */
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  /* text */
+  font-size: 1.2em;
+  font-weight: 300;
+  text-transform: uppercase; 
+}
+
+.project__description {
+  /* box */
+  border: solid 2px #ccc;
+  border-top: none;
+  padding: 0 2rem;
+  padding-top: 2rem; 
+}
+
+.project__description a {
+  /* text */
+  color: #333;
+  text-decoration: none; 
+}
+
+.project__description a:visited {
+  /* text */
+  color: #333;
+  text-decoration: none; 
+}
+
+.project__item {
+  /* box */
+  padding-bottom: 2rem; 
+}
+
+.project__buttons {
+  /* box */
+  display: flex;
+  /* text */
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  /* flex children */
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+@media (max-width: 767px) {
+  .project__buttons {
+    flex-direction: column;
+    padding-bottom: 1rem; 
+  }
+}
+
+.project__button {
+  /* box */
+  box-sizing: border-box;
+  width: 20rem;
+  height: 4rem;
+  padding: 0 1rem;
+  /* text */
+  text-align: center;
+  white-space: nowrap; 
+}
+
+.project__button a {
+  /* box */
+  width: 100%;
   height: 100%;
+  display: flex;
+  /* background */
+  background-color: #fe7b5c;
+  /* flex child element settings */
+  align-items: center;
+  justify-content: center; 
+}
+
+@media (max-width: 767px) {
+  .project__button {
+    margin-bottom: 1rem; 
+  }
+}
+
+.project__button-text {
+  display: block;
+  position: relative;
+  top: -.1rem; 
 }
