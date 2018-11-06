@@ -13,7 +13,7 @@ class Main extends Component {
               <section class="main__section main__profile">
                 <h1>Brian</h1>
                 <h1>Glaser</h1>
-                <h2 class="main__subtitle h2-padding-exception">Full-Stack Developer | Solutions Engineer | Digital Strategy</h2>
+                <h2 class="main__subtitle">Full-Stack Developer | Solutions Engineer | Digital Strategy</h2>
               </section>
 
               <section className="main__section">
@@ -26,55 +26,50 @@ class Main extends Component {
               </section>
 
               <section className="main__section">
-                <h2 className="h2-padding-exception">Personal Projects</h2>
+                <h2 >Personal Projects</h2>
                 
 
-          {/* <div className="project">
-						<div className="project__img-container">
-							<img src={stokeyswayhome} className="project__img--large"/>
-							<img src="img/quest_game_tall.png" className="project__img--tall"/>
-							<h3 className="project__img-title">Adventure Game</h3>
-						</div>
-						<div className="project__description">
-							<div className="project__buttons project__item">
-								<div className="project__button">
-									<a href="" target="_blank"><p className="project__button-text">Live Demo</p></a>
-								</div>
-								<div className="project__button">
-									<a href="" target="_blank"><p className="project__button-text">Source Code</p></a>
-								</div>
-							</div>
-							<p className= "project__item"></p>
-							<p className= "project__item">.  
-							</p>
-						</div>
-					</div> */}
-
-                <div className="project_container">
-                  <div className="project">
-                    <div className="project__img-container">
-                      <img src={stokeyswayhome} alt="Photo of Stokey Bear Escape"></img>
-                      <h3 className="project__img-title">Stokey's Way Home</h3>
+                <div className="project">
+                  <div className="project__img-container">
+                    <img src={stokeyswayhome} className="project__img--large"/>
+                    <img src="img/quest_game_tall.png" className="project__img--tall"/>
+                    <h3 className="project__img-title">racing game - stokey's way home</h3>
+                  </div>
+                  <div className="project__description">
+                    <div className="project__buttons project__item">
+                      <div className="project__button">
+                        <a href="" target="_blank"><p className="project__button-text">Live Demo</p></a>
+                      </div>
+                      <div className="project__button">
+                        <a href="" target="_blank"><p className="project__button-text">Source Code</p></a>
+                      </div>
                     </div>
-                    <div className="project__description">
-                      <p className="project__item">Technologies: Go here, this, that</p>
-                      <p className="project__item">More info about this things: Go here, this, that</p>
-                    </div>
+                    <p className= "project__item"></p>
+                    <p className= "project__item">.  
+                    </p>
                   </div>
-
-
-
-
-                  {/* <div className="project_box">Kainan
-                    <img src="#" alt="Photo of Stokey Bear Escape"></img>
-                  </div>
-                  <div className="project_box">Stalky Stocks
-                    <img src="#" alt="Photo of Stokey Bear Escape"></img>
-                  </div>
-                  <div className="project_box">Salt & Pepper Family
-                    <img src="#" alt="Photo of Stokey Bear Escape"></img>
-                  </div> */}
                 </div>
+                <div className="project">
+                  <div className="project__img-container">
+                    <img src={stokeyswayhome} className="project__img--large"/>
+                    <img src="img/quest_game_tall.png" className="project__img--tall"/>
+                    <h3 className="project__img-title">racing game - stokey's way home</h3>
+                  </div>
+                  <div className="project__description">
+                    <div className="project__buttons project__item">
+                      <div className="project__button">
+                        <a href="" target="_blank"><p className="project__button-text">Live Demo</p></a>
+                      </div>
+                      <div className="project__button">
+                        <a href="" target="_blank"><p className="project__button-text">Source Code</p></a>
+                      </div>
+                    </div>
+                    <p className= "project__item"></p>
+                    <p className= "project__item">.  
+                    </p>
+                  </div>
+                </div>
+
               </section>
 
               <section id="contact" className="main__section">
