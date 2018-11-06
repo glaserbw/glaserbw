@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import '../../App.css';
 
 // imports
-import stokeyswayhome from '../assets/Stokeyswayhome.png';
-import kainan from '../assets/Kainan.png';
+import stokeyswayhome from '../assets/stokeyswayhome.png';
+import kainan from '../assets/kainan.png';
+import stalkystocks from '../assets/kainan.png';
 
 class Main extends Component {
   render() {
@@ -33,44 +34,43 @@ class Main extends Component {
                   <div className="project">
                     <div className="project__img-container">
                       <img src={stokeyswayhome} className="project__img--large"/>
-                      <img src="img/quest_game_tall.png" className="project__img--tall"/>
+                      <img src={stokeyswayhome}  className="project__img--tall"/>
                       <h3 className="project__img-title">racing game - stokey's way home</h3>
                     </div>
                     <div className="project__description">
-                      <p className= "project__item">This is the content about the project and how i made it</p>
-                      <p className= "project__item">This is more content about the project and how it was created.</p>
+                      <p className= "project__item">Technologies: JavaScript, HTML5 Canvas</p>
+                      <p className= "project__item">This is a simple top-down 'racing' where the player navigates their car home through rush hour traffic on the I-5. No winning, rather see how far you make it before the traffic becomes too much.. </p>
                       <div className="project__buttons project__item">
                         <div className="project__button">
-                          <a href="" target="_blank"><p className="project__button-text">Live Demo</p></a>
+                          <a href="https://glaserbw.github.io/stokeyswayhome/" target="_blank"><p className="project__button-text">Live Demo</p></a>
                         </div>
                         <div className="project__button">
-                          <a href="" target="_blank"><p className="project__button-text">Source Code</p></a>
+                          <a href="https://github.com/glaserbw/stokeyswayhome" target="_blank"><p className="project__button-text">Source Code</p></a>
                         </div>
                       </div>
-
                     </div>
                   </div>
 
                   <div className="project">
                     <div className="project__img-container">
                       <img src={kainan} className="project__img--large"/>
-                      <img src={kainan} className="project__img--tall"/>
-                      <h3 className="project__img-title">app - kainan filipino restaurant finderg</h3>
+                      <img src={kainan}  className="project__img--tall"/>
+                      <h3 className="project__img-title">racing game - stokey's way home</h3>
                     </div>
                     <div className="project__description">
+                      <p className= "project__item">Technologies: JavaScript, HTML5 Canvas</p>
+                      <p className= "project__item">This is a simple top-down 'racing' where the player navigates their car home through rush hour traffic on the I-5. No winning, rather see how far you make it before the traffic becomes too much.. </p>
                       <div className="project__buttons project__item">
                         <div className="project__button">
-                          <a href="" target="_blank"><p className="project__button-text">Live Demo</p></a>
+                          <a href="https://glaserbw.github.io/stokeyswayhome/" target="_blank"><p className="project__button-text">Live Demo</p></a>
                         </div>
                         <div className="project__button">
-                          <a href="" target="_blank"><p className="project__button-text">Source Code</p></a>
+                          <a href="https://github.com/glaserbw/stokeyswayhome" target="_blank"><p className="project__button-text">Source Code</p></a>
                         </div>
                       </div>
-                      <p className= "project__item"> This is the content about the project and how i made it</p>
-                      <p className= "project__item"> This is more content about the project and how it was created. 
-                      </p>
                     </div>
                   </div>
+
                 </div>
               </section>
 

@@ -329,7 +329,7 @@ hr {
 
 .project__img-container {
   position: relative; 
-  height: 20vh;
+  /* height: 20vh; */
 }
 .project img {
   max-width: 100%; 
@@ -363,14 +363,14 @@ hr {
 
 .project__img-title {
   box-sizing: border-box;
-  padding: 2rem;
+  padding: .5rem;
   margin: 0 auto;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   top: 0;
-  font-size: 1.4rem;
-  font-weight: 400;
+  font-size: 1.2em;
+  font-weight: 700;
   text-transform: uppercase; 
 }
 
@@ -412,8 +412,8 @@ hr {
 }
 .project__button {
   box-sizing: border-box;
-  width: 20rem;
-  height: 4rem;
+  width: 10rem;
+  height: 2.5rem;
   padding: 0 1rem;
   text-align: center;
   white-space: nowrap; 
@@ -423,8 +423,8 @@ hr {
     width: 100%;
     height: 100%;
     display: flex;
-    background-color: #fe7b5c;
-
+    background-color: var(--sidebar-color);
+    border: solid 1px rgba(255,255,255,.5);
     align-items: center;
     justify-content: center; 
 }
@@ -438,5 +438,6 @@ hr {
 .project__button-text {
   display: block;
   position: relative;
-  top: -.1rem; 
+  /* top: -.1rem;  */
+  font-size: .6em;
 }
