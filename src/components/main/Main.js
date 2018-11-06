@@ -39,7 +39,7 @@ class Main extends Component {
                       <h3 className="project__img-title">racing game - stokey's way home</h3>
                     </div>
                     <div className="project__description">
-                      <p className= "project__item">Technologies: JavaScript, HTML5 Canvas</p>
+                      <p className= "project__item"><strong>Technologies</strong>: JavaScript, HTML5 Canvas</p>
                       <p className= "project__item">This is a simple top-down 'racing' where the player navigates their car home through rush hour traffic on the I-5. No winning, rather see how far you make it before the traffic becomes too much.. </p>
                       <div className="project__buttons project__item">
                         <div className="project__button">
@@ -59,7 +59,7 @@ class Main extends Component {
                       <h3 className="project__img-title">website - kainan</h3>
                     </div>
                     <div className="project__description">
-                      <p className= "project__item">Technologies: HTML/CSS, Node.js, Express.js, SQL, Zomato API</p>
+                      <p className= "project__item"><strong>Technologies</strong>: HTML/CSS, Node.js, Express.js, SQL, Zomato API</p>
                       <p className= "project__item">Kainan means "eatery" in Tagalog. This is a restaurant finder specifically geared for finding Filipino restaurants in a city. Find and save favorites, map ability coming soon. </p>
                       <div className="project__buttons project__item">
                         <div className="project__button">
@@ -79,14 +79,14 @@ class Main extends Component {
                       <h3 className="project__img-title">website - stalky stocks</h3>
                     </div>
                     <div className="project__description">
-                      <p className= "project__item">Technologies: HTML/CSS, React, Materialize, Node.js, Express.js, MongoDB, Charts.js, IEX API</p>
+                      <p className= "project__item"><strong>Technologies</strong>: HTML/CSS, React, Materialize, Node.js, Express.js, MongoDB, Charts.js, IEX API</p>
                       <p className= "project__item">A group project with fellow developers, this full stack stock trading training app allows users to purchase stocks and monitor them using charts and updated in realtime using an API</p>
                       <div className="project__buttons project__item">
                         <div className="project__button">
-                          <a href="https://github.com/glaserbw/kainan-app" target="_blank"><p className="project__button-text">Live Demo</p></a>
+                          <a href="https://stalklystocks-bzy.herokuapp.com/" target="_blank"><p className="project__button-text">Live Demo</p></a>
                         </div>
                         <div className="project__button">
-                          <a href="https://kainan-app-bg.herokuapp.com/" target="_blank"><p className="project__button-text">Source Code</p></a>
+                          <a href="https://github.com/glaserbw/mern-app-client" target="_blank"><p className="project__button-text">Source Code</p></a>
                         </div>
                       </div>
                     </div>
@@ -99,14 +99,14 @@ class Main extends Component {
                       <h3 className="project__img-title">website - salt & pepper family</h3>
                     </div>
                     <div className="project__description">
-                      <p className= "project__item">Technologies: HTML/CSS, Materialize, Django, Python</p>
+                      <p className= "project__item"><strong>Technologies</strong>: HTML/CSS, Materialize, Django, Python</p>
                       <p className= "project__item">A group project with fellow developers, this full stack stock trading training app allows users to purchase stocks and monitor them using charts and updated in realtime using an API</p>
                       <div className="project__buttons project__item">
                         <div className="project__button">
-                          <a href="https://github.com/glaserbw/kainan-app" target="_blank"><p className="project__button-text">Live Demo</p></a>
+                          <a href="https://saltandpepperfam.herokuapp.com/" target="_blank"><p className="project__button-text">Live Demo</p></a>
                         </div>
                         <div className="project__button">
-                          <a href="https://kainan-app-bg.herokuapp.com/" target="_blank"><p className="project__button-text">Source Code</p></a>
+                          <a href="https://github.com/glaserbw/spf" target="_blank"><p className="project__button-text">Source Code</p></a>
                         </div>
                       </div>
                     </div>
@@ -119,8 +119,8 @@ class Main extends Component {
                 <h2>Contact</h2>
                 <div className="main__contact-info">
                   <div id="contact" className="contact">glaserbw@gmail.com </div>
-                  <a href="" target="_blank"> Resume</a>
-                    <a href="#" target="_blank"> LinkedIn</a>
+                  <a href="https://drive.google.com/file/d/1VVIIjFAkX_FujXnweJYtU7BDht2LJ1Lj/view?usp=sharing" target="_blank"> Resume</a>
+                    <a href="https://www.linkedin.com/in/brian-w-glaser/" target="_blank"> LinkedIn</a>
                 </div>
               </section>
             </div>
