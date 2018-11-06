@@ -30,10 +30,10 @@ class Sidebar extends Component {
 					</a>
 				</div>
 				<div className="nav-buttons_button">
-					<ScrollableAnchor id={'contact'}><a href="#contact">
+					<a href="#contact">
 						<i className="fa fa-envelope-square nav-buttons__icon"></i>
 						<p class="nav-buttons__link-text">Email</p>
-					</a></ScrollableAnchor>
+					</a>
 				</div>
 				<div className="nav-buttons_button">
 					<a href="https://drive.google.com/file/d/1VVIIjFAkX_FujXnweJYtU7BDht2LJ1Lj/view?usp=sharing" target="_blank">

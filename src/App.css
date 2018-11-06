@@ -107,9 +107,10 @@ hr {
 @media (max-width: 767px) {
   .nav-buttons {
     display: flex;
-    padding-bottom: 4rem;
+    /* padding-bottom: .5rem; */
     flex-direction: row;
     justify-content: space-around; 
+    align-items: baseline;
   } 
 }
 
@@ -209,7 +210,7 @@ hr {
 
 @media (max-width: 767px) {
   .sidebar {
-    height: 100%;
+    height: 120%;
     width: 100%;
     position: static;
     top: 0px;
@@ -318,13 +319,15 @@ hr {
 }
 
 .main__contact-info {
-  display: inline-block; 
+  display: flex; 
+  
 }
 
 .main__contact-info a {
-  color: #333;
+  color: var(--font-color);
   text-decoration: none;
   text-transform: capitalize; 
+  margin: 0 10px;
 }
 
 .main__email {
@@ -397,7 +400,7 @@ hr {
 }
 
 .project__description {
-  border: solid 2px #ccc;
+  border: solid 1px rgba(255, 255, 255, .9);
   border-top: none;
   padding: 0 2rem;
   padding-top: 2rem; 

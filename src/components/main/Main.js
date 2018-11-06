@@ -118,11 +118,9 @@ class Main extends Component {
               <section id="contact" className="main__section">
                 <h2>Contact</h2>
                 <div className="main__contact-info">
-                  <div id="js-email" className="contact">glaserbw@gmail.com</div>
-                  | 
-                  <a href="" target="_blank">Resume</a>
-                    | 
-                    <a href="#" target="_blank">LinkedIn</a>
+                  <div id="contact" className="contact">glaserbw@gmail.com </div>
+                  <a href="" target="_blank"> Resume</a>
+                    <a href="#" target="_blank"> LinkedIn</a>
                 </div>
               </section>
             </div>
