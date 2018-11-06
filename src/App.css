@@ -313,16 +313,27 @@ hr {
 
 
 /* Project Section */
+.project__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
 
 .project {
-  margin-top: 4rem; 
+  margin-top: 2rem; 
+  width: 25em;
+  flex-wrap: wrap;
 }
 
 .project__img-container {
   position: relative; 
+  height: 20vh;
 }
 .project img {
   max-width: 100%; 
+  overflow: hidden;
 }
 
 .project__img {
@@ -348,7 +359,7 @@ hr {
   .project__img--tall {
     display: block; 
   }
- }
+}
 
 .project__img-title {
   box-sizing: border-box;
