@@ -4,7 +4,8 @@ import '../../App.css';
 // imports
 import stokeyswayhome from '../assets/stokeyswayhome.png';
 import kainan from '../assets/kainan.png';
-import stalkystocks from '../assets/kainan.png';
+import stalkystocks from '../assets/stalkystocks.png';
+import saltandpepperfam from '../assets/saltandpepperfam.png';
 
 class Main extends Component {
   render() {
@@ -55,17 +56,57 @@ class Main extends Component {
                     <div className="project__img-container">
                       <img src={kainan} className="project__img--large"/>
                       <img src={kainan}  className="project__img--tall"/>
-                      <h3 className="project__img-title">racing game - stokey's way home</h3>
+                      <h3 className="project__img-title">website - kainan</h3>
                     </div>
                     <div className="project__description">
-                      <p className= "project__item">Technologies: JavaScript, HTML5 Canvas</p>
-                      <p className= "project__item">This is a simple top-down 'racing' where the player navigates their car home through rush hour traffic on the I-5. No winning, rather see how far you make it before the traffic becomes too much.. </p>
+                      <p className= "project__item">Technologies: HTML/CSS, Node.js, Express.js, SQL, Zomato API</p>
+                      <p className= "project__item">Kainan means "eatery" in Tagalog. This is a restaurant finder specifically geared for finding Filipino restaurants in a city. Find and save favorites, map ability coming soon. </p>
                       <div className="project__buttons project__item">
                         <div className="project__button">
-                          <a href="https://glaserbw.github.io/stokeyswayhome/" target="_blank"><p className="project__button-text">Live Demo</p></a>
+                          <a href="https://github.com/glaserbw/kainan-app" target="_blank"><p className="project__button-text">Live Demo</p></a>
                         </div>
                         <div className="project__button">
-                          <a href="https://github.com/glaserbw/stokeyswayhome" target="_blank"><p className="project__button-text">Source Code</p></a>
+                          <a href="https://kainan-app-bg.herokuapp.com/" target="_blank"><p className="project__button-text">Source Code</p></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="project">
+                    <div className="project__img-container">
+                      <img src={stalkystocks} className="project__img--large"/>
+                      <img src={stalkystocks}  className="project__img--tall"/>
+                      <h3 className="project__img-title">website - stalky stocks</h3>
+                    </div>
+                    <div className="project__description">
+                      <p className= "project__item">Technologies: HTML/CSS, React, Materialize, Node.js, Express.js, MongoDB, Charts.js, IEX API</p>
+                      <p className= "project__item">A group project with fellow developers, this full stack stock trading training app allows users to purchase stocks and monitor them using charts and updated in realtime using an API</p>
+                      <div className="project__buttons project__item">
+                        <div className="project__button">
+                          <a href="https://github.com/glaserbw/kainan-app" target="_blank"><p className="project__button-text">Live Demo</p></a>
+                        </div>
+                        <div className="project__button">
+                          <a href="https://kainan-app-bg.herokuapp.com/" target="_blank"><p className="project__button-text">Source Code</p></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="project">
+                    <div className="project__img-container">
+                      <img src={saltandpepperfam} className="project__img--large"/>
+                      <img src={saltandpepperfam}  className="project__img--tall"/>
+                      <h3 className="project__img-title">website - salt & pepper family</h3>
+                    </div>
+                    <div className="project__description">
+                      <p className= "project__item">Technologies: HTML/CSS, Materialize, Django, Python</p>
+                      <p className= "project__item">A group project with fellow developers, this full stack stock trading training app allows users to purchase stocks and monitor them using charts and updated in realtime using an API</p>
+                      <div className="project__buttons project__item">
+                        <div className="project__button">
+                          <a href="https://github.com/glaserbw/kainan-app" target="_blank"><p className="project__button-text">Live Demo</p></a>
+                        </div>
+                        <div className="project__button">
+                          <a href="https://kainan-app-bg.herokuapp.com/" target="_blank"><p className="project__button-text">Source Code</p></a>
                         </div>
                       </div>
                     </div>
