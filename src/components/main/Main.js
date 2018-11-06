@@ -53,7 +53,7 @@ class Main extends Component {
                   <div className="project__img-container">
                     <img src={stokeyswayhome} className="project__img--large"/>
                     <img src="img/quest_game_tall.png" className="project__img--tall"/>
-                    <h3 className="project__img-title">racing game - stokey's way home</h3>
+                    <h3 className="project__img-title">app - kainan filipino restaurant finder</h3>
                   </div>
                   <div className="project__description">
                     <div className="project__buttons project__item">
