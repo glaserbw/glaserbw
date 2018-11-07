@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import '../../App.css';
 
 // imports
-import stokeyswayhome from '../assets/stokeyswayhome.png';
-import kainan from '../assets/kainan.png';
-import stalkystocks from '../assets/stalkystocks.png';
-import saltandpepperfam from '../assets/saltandpepperfam.png';
+// import stokeyswayhome from 'https://res.cloudinary.com/glaserbw/image/upload/v1541550177/Portfolio/stokeyswayhome.png';
+// import kainan from '../assets/kainan.png';
+// import stalkystocks from '../assets/stalkystocks.png';
+// import saltandpepperfam from '../assets/saltandpepperfam.png';
 
 class Main extends Component {
   render() {
@@ -34,8 +34,8 @@ class Main extends Component {
                 <div className="project__container">
                   <div className="project">
                     <div className="project__img-container">
-                      <img src={stokeyswayhome} className="project__img--large" alt="stokeyswayhome"/>
-                      <img src={stokeyswayhome} alt="stokeyswayhome"  className="project__img--tall"/>
+                      <img src="https://res.cloudinary.com/glaserbw/image/upload/v1541550177/Portfolio/stokeyswayhome.png" className="project__img--large" alt="stokeyswayhome"/>
+                      <img src="https://res.cloudinary.com/glaserbw/image/upload/v1541550177/Portfolio/stokeyswayhome.png" alt="stokeyswayhome"  className="project__img--tall"/>
                       <h3 className="project__img-title">racing game - stokey's way home</h3>
                     </div>
                     <div className="project__description">
@@ -54,8 +54,8 @@ class Main extends Component {
 
                   <div className="project">
                     <div className="project__img-container">
-                      <img src={kainan} alt="kainan" className="project__img--large"/>
-                      <img src={kainan} alt="kainan" className="project__img--tall"/>
+                      <img src="https://res.cloudinary.com/glaserbw/image/upload/v1541550176/Portfolio/kainan.png" alt="kainan" className="project__img--large"/>
+                      <img src="https://res.cloudinary.com/glaserbw/image/upload/v1541550176/Portfolio/kainan.png" alt="kainan" className="project__img--tall"/>
                       <h3 className="project__img-title">website - kainan</h3>
                     </div>
                     <div className="project__description">
@@ -74,8 +74,8 @@ class Main extends Component {
 
                   <div className="project">
                     <div className="project__img-container">
-                      <img src={stalkystocks} alt="stalkystocks" className="project__img--large"/>
-                      <img src={stalkystocks} alt="stalkystocks" className="project__img--tall"/>
+                      <img src="https://res.cloudinary.com/glaserbw/image/upload/v1541550178/Portfolio/stalkystocks.png" alt="stalkystocks" className="project__img--large"/>
+                      <img src="https://res.cloudinary.com/glaserbw/image/upload/v1541550178/Portfolio/stalkystocks.png" alt="stalkystocks" className="project__img--tall"/>
                       <h3 className="project__img-title">website - stalky stocks</h3>
                     </div>
                     <div className="project__description">
@@ -94,8 +94,8 @@ class Main extends Component {
 
                   <div className="project">
                     <div className="project__img-container">
-                      <img src={saltandpepperfam} alt="saltandpepperfam" className="project__img--large"/>
-                      <img src={saltandpepperfam} alt="saltandpepperfam" className="project__img--tall"/>
+                      <img src="https://res.cloudinary.com/glaserbw/image/upload/v1541550182/Portfolio/saltandpepperfam.png" alt="saltandpepperfam" className="project__img--large"/>
+                      <img src="https://res.cloudinary.com/glaserbw/image/upload/v1541550182/Portfolio/saltandpepperfam.png" alt="saltandpepperfam" className="project__img--tall"/>
                       <h3 className="project__img-title">website - salt & pepper family</h3>
                     </div>
                     <div className="project__description">
