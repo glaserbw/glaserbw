@@ -13,10 +13,10 @@ class Main extends Component {
 
          <div className="main">
             <div className="main-container">
-              <section class="main__section main__profile">
+              <section className="main__section main__profile">
                 <h1>Brian</h1>
                 <h1>Glaser</h1>
-                <h2 class="main__subtitle">Full-Stack Developer | Solutions Engineer | Digital Strategy</h2>
+                <h2 className="main__subtitle">Full-Stack Developer | Solutions Engineer | Digital Strategy</h2>
               </section>
 
               <section className="main__section">
@@ -34,8 +34,8 @@ class Main extends Component {
                 <div className="project__container">
                   <div className="project">
                     <div className="project__img-container">
-                      <img src={stokeyswayhome} className="project__img--large"/>
-                      <img src={stokeyswayhome}  className="project__img--tall"/>
+                      <img src={stokeyswayhome} className="project__img--large" alt="stokeyswayhome"/>
+                      <img src={stokeyswayhome} alt="stokeyswayhome"  className="project__img--tall"/>
                       <h3 className="project__img-title">racing game - stokey's way home</h3>
                     </div>
                     <div className="project__description">
@@ -43,10 +43,10 @@ class Main extends Component {
                       <p className= "project__item">This is a simple top-down 'racing' where the player navigates their car home through rush hour traffic on the I-5. No winning, rather see how far you make it before the traffic becomes too much.. </p>
                       <div className="project__buttons project__item">
                         <div className="project__button">
-                          <a href="https://glaserbw.github.io/stokeyswayhome/" target="_blank"><p className="project__button-text">Live Demo</p></a>
+                          <a href="https://glaserbw.github.io/stokeyswayhome/" target="_blank" rel="noopener noreferrer"><p className="project__button-text">Live Demo</p></a>
                         </div>
                         <div className="project__button">
-                          <a href="https://github.com/glaserbw/stokeyswayhome" target="_blank"><p className="project__button-text">Source Code</p></a>
+                          <a href="https://github.com/glaserbw/stokeyswayhome" target="_blank" rel="noopener noreferrer"><p className="project__button-text">Source Code</p></a>
                         </div>
                       </div>
                     </div>
@@ -54,8 +54,8 @@ class Main extends Component {
 
                   <div className="project">
                     <div className="project__img-container">
-                      <img src={kainan} className="project__img--large"/>
-                      <img src={kainan}  className="project__img--tall"/>
+                      <img src={kainan} alt="kainan" className="project__img--large"/>
+                      <img src={kainan} alt="kainan" className="project__img--tall"/>
                       <h3 className="project__img-title">website - kainan</h3>
                     </div>
                     <div className="project__description">
@@ -63,10 +63,10 @@ class Main extends Component {
                       <p className= "project__item">Kainan means "eatery" in Tagalog. This is a restaurant finder specifically geared for finding Filipino restaurants in a city. Find and save favorites, map ability coming soon. </p>
                       <div className="project__buttons project__item">
                         <div className="project__button">
-                          <a href="https://github.com/glaserbw/kainan-app" target="_blank"><p className="project__button-text">Live Demo</p></a>
+                          <a href="https://github.com/glaserbw/kainan-app" target="_blank" rel="noopener noreferrer"><p className="project__button-text">Live Demo</p></a>
                         </div>
                         <div className="project__button">
-                          <a href="https://kainan-app-bg.herokuapp.com/" target="_blank"><p className="project__button-text">Source Code</p></a>
+                          <a href="https://kainan-app-bg.herokuapp.com/" target="_blank" rel="noopener noreferrer"><p className="project__button-text">Source Code</p></a>
                         </div>
                       </div>
                     </div>
@@ -74,8 +74,8 @@ class Main extends Component {
 
                   <div className="project">
                     <div className="project__img-container">
-                      <img src={stalkystocks} className="project__img--large"/>
-                      <img src={stalkystocks}  className="project__img--tall"/>
+                      <img src={stalkystocks} alt="stalkystocks" className="project__img--large"/>
+                      <img src={stalkystocks} alt="stalkystocks" className="project__img--tall"/>
                       <h3 className="project__img-title">website - stalky stocks</h3>
                     </div>
                     <div className="project__description">
@@ -83,10 +83,10 @@ class Main extends Component {
                       <p className= "project__item">A group project with fellow developers, this full stack stock trading training app allows users to purchase stocks and monitor them using charts and updated in realtime using an API</p>
                       <div className="project__buttons project__item">
                         <div className="project__button">
-                          <a href="https://stalklystocks-bzy.herokuapp.com/" target="_blank"><p className="project__button-text">Live Demo</p></a>
+                          <a href="https://stalklystocks-bzy.herokuapp.com/" target="_blank" rel="noopener noreferrer"><p className="project__button-text">Live Demo</p></a>
                         </div>
                         <div className="project__button">
-                          <a href="https://github.com/glaserbw/mern-app-client" target="_blank"><p className="project__button-text">Source Code</p></a>
+                          <a href="https://github.com/glaserbw/mern-app-client" target="_blank" rel="noopener noreferrer"><p className="project__button-text">Source Code</p></a>
                         </div>
                       </div>
                     </div>
@@ -94,8 +94,8 @@ class Main extends Component {
 
                   <div className="project">
                     <div className="project__img-container">
-                      <img src={saltandpepperfam} className="project__img--large"/>
-                      <img src={saltandpepperfam}  className="project__img--tall"/>
+                      <img src={saltandpepperfam} alt="saltandpepperfam" className="project__img--large"/>
+                      <img src={saltandpepperfam} alt="saltandpepperfam" className="project__img--tall"/>
                       <h3 className="project__img-title">website - salt & pepper family</h3>
                     </div>
                     <div className="project__description">
@@ -103,10 +103,10 @@ class Main extends Component {
                       <p className= "project__item">A group project with fellow developers, this full stack stock trading training app allows users to purchase stocks and monitor them using charts and updated in realtime using an API</p>
                       <div className="project__buttons project__item">
                         <div className="project__button">
-                          <a href="https://saltandpepperfam.herokuapp.com/" target="_blank"><p className="project__button-text">Live Demo</p></a>
+                          <a href="https://saltandpepperfam.herokuapp.com/" target="_blank" rel="noopener noreferrer"><p className="project__button-text">Live Demo</p></a>
                         </div>
                         <div className="project__button">
-                          <a href="https://github.com/glaserbw/spf" target="_blank"><p className="project__button-text">Source Code</p></a>
+                          <a href="https://github.com/glaserbw/spf" target="_blank" rel="noopener noreferrer"><p className="project__button-text">Source Code</p></a>
                         </div>
                       </div>
                     </div>
@@ -119,8 +119,8 @@ class Main extends Component {
                 <h2>Contact</h2>
                 <div className="main__contact-info">
                   <div id="contact" className="contact">glaserbw@gmail.com </div>
-                  <a href="https://drive.google.com/file/d/1VVIIjFAkX_FujXnweJYtU7BDht2LJ1Lj/view?usp=sharing" target="_blank"> Resume</a>
-                    <a href="https://www.linkedin.com/in/brian-w-glaser/" target="_blank"> LinkedIn</a>
+                  <a href="https://drive.google.com/file/d/1VVIIjFAkX_FujXnweJYtU7BDht2LJ1Lj/view?usp=sharing" target="_blank" rel="noopener noreferrer"> Resume</a>
+                    <a href="https://www.linkedin.com/in/brian-w-glaser/" target="_blank" rel="noopener noreferrer"> LinkedIn</a>
                 </div>
               </section>
             </div>
