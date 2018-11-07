@@ -402,8 +402,8 @@ hr {
 .project__description {
   border: solid 1px rgba(255, 255, 255, .9);
   border-top: none;
-  padding: 0 2rem;
-  padding-top: 2rem; 
+  padding: 0 1.3rem;
+  padding-top: 1.8rem; 
 }
 
 .project__description a {
