@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import brian from './assets/brian.jpg';
+import brian from './assets/brian.png';
 
 
 // imports
