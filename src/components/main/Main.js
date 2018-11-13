@@ -63,10 +63,10 @@ class Main extends Component {
                       <p className= "project__item">Kainan means "eatery" in Tagalog. This is a restaurant finder specifically geared for finding Filipino restaurants in a city. Find and save favorites, map ability coming soon. </p>
                       <div className="project__buttons project__item">
                         <div className="project__button">
-                          <a href="https://github.com/glaserbw/kainan-app" target="_blank" rel="noopener noreferrer"><p className="project__button-text">Live Demo</p></a>
+                          <a href="https://kainan-app-bg.herokuapp.com/" target="_blank" rel="noopener noreferrer"><p className="project__button-text">Live Demo</p></a>
                         </div>
                         <div className="project__button">
-                          <a href="https://kainan-app-bg.herokuapp.com/" target="_blank" rel="noopener noreferrer"><p className="project__button-text">Source Code</p></a>
+                          <a href="https://github.com/glaserbw/kainan-app" target="_blank" rel="noopener noreferrer"><p className="project__button-text">Source Code</p></a>
                         </div>
                       </div>
                     </div>
