@@ -100,7 +100,7 @@ class Main extends Component {
                     </div>
                     <div className="project__description">
                       <p className= "project__item"><strong>Technologies</strong>: HTML/CSS, Materialize, Django, Python</p>
-                      <p className= "project__item">A group project with fellow developers, this full stack stock trading training app allows users to purchase stocks and monitor them using charts and updated in realtime using an API</p>
+                      <p className= "project__item">A personal blog/news style site with an emphasis on large-format travel photography. Site also features a customized editorial admin panel using Djangos admin tools</p>
                       <div className="project__buttons project__item">
                         <div className="project__button">
                           <a href="https://saltandpepperfam.herokuapp.com/" target="_blank" rel="noopener noreferrer"><p className="project__button-text">Live Demo</p></a>
